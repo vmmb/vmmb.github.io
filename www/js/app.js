@@ -4,13 +4,13 @@ myApp.config(function($stateProvider) {
     var aboutState = {
         name: 'about',
         url: '/about',
-        templateUrl: 'templates/about.html'
+        templateUrl: 'about.html'
     }
 
     var projectsState = {
         name: 'projects',
         url: '/projects',
-        templateUrl: 'templates/projects.html'
+        templateUrl: 'projects.html'
     }
 
     $stateProvider.state(projectsState);
